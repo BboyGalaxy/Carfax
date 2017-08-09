@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Formulario de Ciudades</title>
-		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<!--<meta charset="UTF-8">-->
 	</head>
 	<body>
@@ -53,6 +53,10 @@
 			<?php } ?>
 			</tr>
 		</table>
-
+		<footer>
+			<div class="footer">
+				<p>CopyRight "CARFAX"</p>
+			</div>
+		</footer>
 	</body>
 </html>

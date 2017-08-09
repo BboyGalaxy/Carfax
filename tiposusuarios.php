@@ -4,7 +4,7 @@
 		<title>
 			Tipos de usuarios
 		</title>
-		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link rel="stylesheet" type="text/css" href="estiloss.css">
 		<!--<meta charset="UTF-8">-->
 	</HEAD>
 	<header>
@@ -23,6 +23,7 @@
 			$resultado=ejecutar_query($Cmd,$conexion);
 			$row=traer_fila($resultado);
 		?>
+		
 		<form class="Contenedor" action="contipos.php?id=<?php echo $id; ?>" method="POST" align="center">
 			<label for="descripcion">Descripcion</label>
 			<input type="text" name="descripcion" value="<?php echo $row[0]; ?>" required>
@@ -45,6 +46,11 @@
 				<td><a href="tiposusuarios.php?id=<?php echo $row[0]; ?>">Editar</td>
 			</tr>
 			<?php } ?>
-		</table>	
+		</table>
+		<footer>
+			<div class="footer">
+				<p>CopyRigth "CARFAX" </p>
+			</div>
+		</footer>	
 	</body>
 </html>
